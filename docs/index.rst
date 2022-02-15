@@ -19,3 +19,7 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+## This is some text
+
+And some more text
