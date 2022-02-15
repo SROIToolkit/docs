@@ -19,14 +19,14 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'helloWorld'
-copyright = '2020, Michael Altfield'
-author = 'Michael Altfield'
+project = 'Open SROI Toolkit'
+copyright = '2022, Kakia Chatsiou & ESRC Business and Local Government Data Research Centre'
+author = 'Kakia Chatsiou'
 
 # The short X.Y version
-version = ''
+version = '2.1'
 # The full version, including alpha/beta/rc tags
-release = '1.0.0'
+release = '2.1.12'
 
 
 # -- General configuration ---------------------------------------------------
@@ -51,8 +51,8 @@ templates_path = ['_templates']
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
 #
-# source_suffix = ['.rst', '.md']
-source_suffix = '.rst'
+ source_suffix = ['.rst', '.md']
+# source_suffix = '.rst'
 
 # The master toctree document.
 master_doc = 'index'
@@ -78,8 +78,8 @@ pygments_style = None
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-#html_theme = 'alabaster'
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'alabaster'
+#html_theme = 'sphinx_rtd_theme'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -133,8 +133,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'helloWorld.tex', 'helloWorld Documentation',
-     'Michael Altfield', 'manual'),
+    (master_doc, 'OpenSROIToolkit.tex', 'OpenSROIToolkit Documentation',
+     'Kakia Chatsiou', 'manual'),
 ]
 
 
@@ -265,7 +265,7 @@ html_context['downloads'].append( ('epub', '/' +REPO_NAME+ '/' +current_language
 ##########################
  
 html_context['display_github'] = True
-html_context['github_user'] = 'maltfield'
-html_context['github_repo'] = 'rtd-github-pages'
+html_context['github_user'] = 'SROITOolkit'
+html_context['github_repo'] = 'docs'
 html_context['github_version'] = 'master/docs/'
  
