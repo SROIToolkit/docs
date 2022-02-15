@@ -20,6 +20,8 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
-## This is some text
+
+This is some text
+=================
 
 And some more text
